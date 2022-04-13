@@ -471,6 +471,13 @@ section {
   background: #aaa;
 }
 
+.contact .row .wrapper {
+  padding: 30px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0 35px 68px 0 rgba(136, 174, 222, 0.42), inset 0 -8px 16px 0 #b9d1f1;
+}
+
 .contact .row form {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 42rem;
@@ -497,10 +504,10 @@ section {
   border-radius: 5rem;
   padding: 1.2rem 1.8rem;
   font-size: 1.6rem;
-  color: #fff;
   text-transform: none;
   margin: 0.7rem 0;
-  background: #1a1a1a;
+  background: transparent;
+  border: 1px solid #63a5d9;
 }
 
 .contact .row form textarea {
@@ -519,6 +526,7 @@ section {
   background: #fff;
   color: #0d0d0d;
 }
+
 /* Contact */
 
 @media (max-width: 1200px) {
