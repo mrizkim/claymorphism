@@ -299,7 +299,7 @@ section {
   padding: 2rem;
   text-align: center;
   border-radius: 5rem;
-  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4));
+  background: #fff;
   box-shadow: 24px 24px 48px rgba(174, 210, 236, 0.4), inset 12px 12px 24px #e7f2f9, inset -24px -24px 48px #b8d8ee;
   padding: 36px 36px;
   -webkit-backdrop-filter: blur(5px);
@@ -413,6 +413,10 @@ section {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 2rem;
+  padding: 30px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 24px 24px 48px rgba(174, 210, 236, 0.4), inset 12px 12px 24px #e7f2f9, inset -24px -24px 48px #b8d8ee;
 }
 
 .contact .row .contact-container {
@@ -422,7 +426,7 @@ section {
 .contact .row .contact-container h1 {
   font-size: 3rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #3e90d0;
   padding-bottom: 1rem;
 }
 
@@ -451,7 +455,7 @@ section {
 
 .contact .row .contact-container .box-container .box h3 {
   font-size: 2rem;
-  color: #fff;
+  color: #3e90d0;
 }
 
 .contact .row .contact-container .share a {
@@ -471,12 +475,12 @@ section {
   background: #aaa;
 }
 
-.contact .row .wrapper {
+/* .contact .row .wrapper {
   padding: 30px;
   border-radius: 30px;
   background: #fff;
   box-shadow: 0 35px 68px 0 rgba(136, 174, 222, 0.42), inset 0 -8px 16px 0 #b9d1f1;
-}
+} */
 
 .contact .row form {
   -webkit-box-flex: 1;
